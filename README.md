@@ -16,7 +16,7 @@ Allows to login an user by an unique token.
     - [Delete expired tokens](#delete-expired-tokens)
     - [Delete all tokens](#delete-all-tokens)
     - [Exclude users](#exclude-users)
-  - [Exclude users](#exclude-users)
+    - [Helper](#helper)
 - [Contributing](#contributing)
 - [License](#license)
 
