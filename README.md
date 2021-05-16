@@ -126,7 +126,7 @@ echo tokenLogin()->loginUrl(User::first(), 'https://site.test/redirect');
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/wefabric/token-login/issues/new) or submit PRs.
 
 ## Contributors
 - [Leo Flapper](https://github.com/leoflapper)
