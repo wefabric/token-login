@@ -73,7 +73,7 @@ The package adds the route /users/token-login by default (to change it, change t
 > https://site.test/users/token-login?token={TOKEN}
 
 When the token is correct and not expired. The user will be redirected to the default redirect path (see config/token-login.php).
-You can also specify a specific redirect as second parameter.
+You can also specify a redirect as parameter.
 > https://site.test/users/token-login?token={TOKEN}&redirect=https://site.test/my-redirect
 
 ### Refresh tokens
