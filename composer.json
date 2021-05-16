@@ -1,0 +1,36 @@
+{
+    "name": "wefabric/token-login",
+    "description": "Laravel package to login users by unique tokens",
+    "keywords": [
+        "token",
+        "laravel",
+        "authentication",
+        "wefabric"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Flapper",
+            "email": "leo@wefabric.nl",
+            "homepage": "https://wefabric.nl",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wefabric\\TokenLogin\\": "src/"
+        },
+        "files": [
+            "./src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wefabric\\TokenLogin\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
