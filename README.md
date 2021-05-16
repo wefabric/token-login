@@ -134,4 +134,4 @@ Feel free to dive in! [Open an issue](https://github.com/wefabric/token-login/is
 
 ## License
 
-[MIT](LICENSE) © Wefabric
+[MIT](LICENSE.md) © Wefabric
