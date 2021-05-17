@@ -40,10 +40,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     protected function routes()
     {
-        if ($this->app->routesAreCached()) {
-            return;
-        }
-
         Route::middleware(config('token-login.middleware'))
             ->namespace('Wefabric\TokenLogin\Http\Controllers')
             ->group(__DIR__.'/../../routes/web.php');
